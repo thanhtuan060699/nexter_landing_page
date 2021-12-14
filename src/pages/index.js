@@ -15,7 +15,7 @@ export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
         <Layout>
-          <SEO title="Nexter" />
+          <SEO title="GoNexter" />
           <Banner />
           <KeyFeature />
           <Statistic />
