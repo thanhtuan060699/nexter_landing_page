@@ -1,5 +1,21 @@
 export default [
   {
+    path: 'termConditions',
+    label: 'Terms and Conditions'
+  },
+  {
+    path: 'mdifying',
+    label: 'Modifying the Service and Termination.'
+  },
+  {
+    path: 'community',
+    label: 'Community Rules'
+  },
+  {
+    path: 'other',
+    label: "Other Members' Content"
+  },
+  {
     path: 'license',
     label: 'License',
   },

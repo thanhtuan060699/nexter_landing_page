@@ -27,7 +27,7 @@ export default function TermsOfService() {
           }
       </div>
      <Container className="term-content">
-        <h3>
+        <h3 id="termConditions">
            Terms and Conditions
         </h3>
         <p>
@@ -39,7 +39,72 @@ export default function TermsOfService() {
         <p>
         By using this app we assume you accept these terms and conditions. Do not continue to use Nexter if you do not agree to take all of the terms and conditions stated on this page.
         </p>
-        <p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to the Company’s terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same. Our Terms and Conditions were created with the help of the App Terms and Conditions Generator from App-Privacy-Policy.com</p>
+        <p>
+        The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to the Company’s terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same. 
+        </p>
+        <h3 id="mdifying">
+          Modifying the Service and Termination.
+        </h3>
+        <p>Nexter is always striving to improve the Service and bring you additional functionality that you will find engaging and useful. This means we may add new product features or enhancements from time to time as well as remove some features, and if these actions do not materially affect your rights or obligations, we may not provide you with notice before taking them. We may even suspend the Service entirely, in which event we will notify you in advance unless extenuating circumstances, such as safety or security concerns, prevent us from doing so.</p>
+        <p>
+          Nexter may terminate your account at any time without notice if it believes that you have violated this Agreement. Upon such termination, you will not be entitled to any refund for purchases.
+        </p>
+        <h3 id="community">
+        Community Rules.
+        </h3>
+        <p>
+          By using the Service, you agree that you will not:
+        </p>
+        <ul>
+          <li>
+          use the Service for any purpose that is illegal or prohibited by this Agreement.
+          </li>
+          <li>
+          use the Service for any harmful or nefarious purpose
+          </li>
+          <li>
+          use the Service in order to damage Nexter
+          </li>
+          <li>
+          spam, solicit money from or defraud any members.
+          </li>
+          <li>
+          impersonate any person or entity or post any images of another person without his or her permission.
+          </li>
+          <li>
+          bully, "stalk", intimidate, assault, harass, mistreat or defame any person.
+          </li>
+          <li>
+          post any Content that violates or infringes anyone's rights, including rights of publicity, privacy, copyright, trademark or other intellectual property or contract right.
+          </li>
+          <li>
+          post any Content that is hate speech, threatening, sexually explicit or pornographic.
+          </li>
+          <li>
+          post any Content that incites violence; or contains nudity or graphic or gratuitous violence.
+          </li>
+          <li>
+          post any Content that promotes racism, bigotry, hatred or physical harm of any kind against any group or individual.
+          </li>
+          <li>
+          solicit passwords for any purpose, or personal identifying information for commercial or unlawful purposes from other members or disseminate another person's personal information without his or her permission.
+          </li>
+          <li>
+          use another member's account, share an account with another member, or maintain more than one account.
+          </li>
+          <li>
+          create another account if we have already terminated your account, unless you have our permission.
+          </li>
+        </ul>
+        <p>
+        Nexter reserves the right to investigate and/or terminate your account without a refund of any purchases if you have violated this Agreement, misused the Service or behaved in a way that Nexter regards as inappropriate or unlawful, including actions or communications that occur on or off the Service. In the event that you violate these rules your authorization to use the Service will be automatically revoked.
+        </p>
+        <h3 id='other'>
+        Other Members' Content.
+        </h3>
+        <p>
+        Although Nexter reserves the right to review and remove Content that violates this Agreement, such Content is the sole responsibility of the member who posts it, and Nexter cannot guarantee that all Content will comply with this Agreement. If you see Content on the Service that violates this Agreement, please report it within the Service or via our email at: admin@gonexter.com
+        </p>
         <h3 id="license">
           License
         </h3>
@@ -150,6 +215,7 @@ export default function TermsOfService() {
         </ul>
         <p>The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.</p>
         <p>As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.</p>
+
      </Container>
     </section>
    );
