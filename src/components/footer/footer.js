@@ -142,7 +142,7 @@ export default function Footer() {
                 ))
               }
             </div>
-            <div className="item-footer" >
+            <div className="item-footer"  style= {{ width: "150px"}}>
               <h3>Legal</h3>
               {
                 legal.map((i)=>{
