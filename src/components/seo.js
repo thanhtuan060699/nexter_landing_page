@@ -43,7 +43,7 @@ export default function SEO({
   ].concat(meta);
   
   return (
-    <Head>
+    <Head prefix="og: http://ogp.me/ns#">
       <title>{title}</title>
       <meta name="description" content="Find friends to chat and speak in English any time, any where"/>
       <meta name="googlebot" content="noarchive"/>
