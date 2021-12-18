@@ -45,7 +45,6 @@ export default function SEO({
   return (
     <Head>
       <title>{title}</title>
-      <meta http-equiv="REFRESH" content="1800"/>
       <meta name="description" content="Find friends to chat and speak in English any time, any where"/>
       <meta name="googlebot" content="noarchive"/>
       <meta name="robots" content="noarchive"/>
