@@ -46,10 +46,10 @@ export default function SEO({
     <Head>
       <title>{title}</title>
       <meta property="og:type" content="website"/>
-      <meta property="og:image"  content="http://www.gonexter.com/_next/static/images/phone-817e1863c794a2d5743cbd138276552d.png"/>
+      <meta property="og:image"  content="http://www.gonexter.com/_next/static/images/pnglogo.png"/>
       <meta property="og:image:width"  content="720"/>
       <meta property="og:image:height"  content="480"/>
-      <meta property="og:title"   content="Nexter" />
+      <meta property="og:title"   content="Nexter English Social Nextwork" />
       <meta property="og:description"   content="English Social Nextwork" />
     </Head>
   );
