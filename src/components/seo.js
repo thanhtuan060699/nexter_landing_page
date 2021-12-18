@@ -45,13 +45,10 @@ export default function SEO({
   return (
     <Head>
       <title>{title}</title>
-      {metaData.map(({ name, content }, i) => (
-        <meta key={i} name={name} content={content} />
-      ))}
       <meta property="og:type" content="website"/>
       <meta property="og:type" content="Nexter"/>
       <meta property="og:description"   content="English Social Nextwork" />
-      <meta property="og:image"  content="http://www.gonexter.com/_next/static/images/logo-9374d9d71c8962cefbe44ee2d0c48233.svg"/>
+      <meta property="og:image"  content={LogoDark}/>
     </Head>
   );
 }
