@@ -49,8 +49,8 @@ export default function SEO({
       <meta property="og:image"  content={LogoDark}/>
       <meta property="og:image:width"  content="720"/>
       <meta property="og:image:height"  content="480"/>
-      <meta property="og:title"   content="Nexter English Social Nextwork" />
-      <meta property="og:description"   content="English Social Nextwork" />
+      <meta property="og:title"   content="NEXTER - THE SOCIAL NETWORK FOR ENGLISH LEANRERS" />
+      <meta property="og:description"   content="Find friends to chat and speak in English any time, any where" />
     </Head>
   );
 }
