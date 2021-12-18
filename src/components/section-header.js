@@ -19,7 +19,9 @@ export default function SectionHeader({ title, slogan, isWhite }) {
         sx={{
           variant : 'sectionHandler.title',
           color: isWhite ? 'white' : 'heading',
-          opacity: isWhite ? 0.7 :1
+          opacity: isWhite ? 0.7 :1,
+          alignItems: 'center',
+          textAlign: 'center',
         }}
       >
         {title}

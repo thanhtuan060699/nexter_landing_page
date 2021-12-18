@@ -1,7 +1,7 @@
 .statistic-section {
   background-color: #ff6b81;
   text-align: center;
-  padding: 130px 0;
+  padding: 80px 0;
   color: #fff;
 }
 .statistic-title{
@@ -85,12 +85,19 @@
   color : red;
 }
 
+#__next-prerender-indicator{
+  display: none !important;
+}
+
 @media screen and (max-width: 768px) {
   .statistic{
     flex-direction: column;
   }
   .term-table {
     display: none;
+  }
+  .image-banner {
+    text-align: center !important;
   }
 
 }
