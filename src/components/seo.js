@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import LogoDark from 'assets/logo.svg';
+import LogoDark from 'assets/pnglogo.png';
 export default function SEO({
   description = 'Go Nexter english application',
   author = 'Go Nexter',
@@ -46,7 +46,7 @@ export default function SEO({
     <Head>
       <title>{title}</title>
       <meta property="og:type" content="website"/>
-      <meta property="og:image"  content="http://www.gonexter.com/_next/static/images/pnglogo.png"/>
+      <meta property="og:image"  content={LogoDark}/>
       <meta property="og:image:width"  content="720"/>
       <meta property="og:image:height"  content="480"/>
       <meta property="og:title"   content="Nexter English Social Nextwork" />
