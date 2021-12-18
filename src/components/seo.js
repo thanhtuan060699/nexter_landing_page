@@ -49,6 +49,7 @@ export default function SEO({
       <meta name="googlebot" content="noarchive"/>
       <meta name="robots" content="noarchive"/>
 
+      <meta prefix="og: http://ogp.me/ns#" />
       <meta property="og:type" content="website"/>
       <meta property="og:rich_attachment" content="true"/>
       <meta property="og:image"  content={LogoDark}/>
