@@ -15,10 +15,10 @@ export default function Install() {
         It's free, easy and fun, what more are you waiting for.
         </p>
         <div>
-          <a className="install-button-app" style={{marginRight : "10px"}}>
+          <a className="install-button-app" href="https://apps.apple.com/vn/app/nexter-speak-and-chat-english/id1591368404" style={{marginRight : "10px",textDecoration:"none"}}>
             <FontAwesomeIcon icon={faApple}/> App Store
           </a>
-          <a className="install-button-google">
+          <a className="install-button-google" href="https://play.google.com/store/apps/details?id=english.nexter.app" style={{marginRight : "10px",textDecoration:"none"}}>
             <FontAwesomeIcon icon={faGooglePlay}/> Google Play
           </a>
         </div>

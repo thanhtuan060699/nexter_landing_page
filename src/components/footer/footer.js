@@ -1,11 +1,7 @@
 /** @jsx jsx */
-import { Link } from 'components/link';
-import data from './footer.data';
 import FooterLogo from 'assets/logo.svg';
 import { jsx, Container, Flex, Button, Grid } from 'theme-ui';
 import Logo from 'components/logo';
-import {faFacebookF, faTwitter, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const solutions = [
   {
@@ -87,18 +83,6 @@ const legal = [
     value: "Privacy Policy",
     url: "/privacy-policy"
   },
-  {
-    key: "3",
-    value: "Catering Services"
-  },
-  {
-    key: "4",
-    value: "Customer Relations"
-  },
-  {
-    key: "5",
-    value: "Inovation"
-  }
 ]
 export default function Footer() {
   return (
@@ -107,43 +91,13 @@ export default function Footer() {
       <div>
         <div className="footer">
           <div className="logo-footer">
-            <Logo src={FooterLogo}/>
-            <p>Making the world a better place through constructing elegant hierarchies.</p>
-            <div className="social-footer">
-              <FontAwesomeIcon icon={faFacebookF} style={{marginRight: "17px"}} />
-              <FontAwesomeIcon icon={faTwitter} style={{marginRight: "17px"}} />
-              <FontAwesomeIcon icon={faInstagram} style={{marginRight: "17px"}} />
-              <FontAwesomeIcon icon={faYoutube} style={{marginRight: "17px"}} />
+            <div className="logo-footer-d">
+             <Logo src={FooterLogo}/>
             </div>
-          </div>
-          <div className="footer-content">
-            <Grid sx={styles.grid}>
-            <div className="item-footer">
-              <h3>Solutions</h3>
-              {
-                solutions.map((i)=>(
-                  <div key={i.key}>{i.value}</div>
-                ))
-              }
-            </div>
-            <div className="item-footer">
-              <h3>Support</h3>
-              {
-                support.map((i)=>(
-                  <div key={i.key}>{i.value}</div>
-                ))
-              }
-            </div>
+            <p>Cong Ty Co Phan Giao Duc Truc Tuyen Future</p>
+            <p>Address: 888/55 Lac Long Quan, Tan Binh, Ho Chi Minh City</p>
+            <p>Phone number: +84964101824</p>
             <div className="item-footer" >
-              <h3>Company</h3>
-              {
-                company.map((i)=>(
-                  <div key={i.key}>{i.value}</div>
-                ))
-              }
-            </div>
-            <div className="item-footer"  style= {{ width: "150px"}}>
-              <h3>Legal</h3>
               {
                 legal.map((i)=>{
                   if(i.url){
@@ -155,7 +109,6 @@ export default function Footer() {
                 })
               }
             </div>
-            </Grid>
           </div>
         </div>
       </div>

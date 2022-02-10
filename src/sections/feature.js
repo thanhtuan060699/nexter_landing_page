@@ -15,7 +15,7 @@ export default function Overview() {
         <p>
         Learning English is hard, we know that. But it will be a lot easier if you have friends to learn with. With Nexter, we can help you find friends to chat with and speak English with just one click
         </p>
-        <a>
+        <a href="http://onelink.to/s25dt2" style={{textDecoration:"none"}}>
           Get Started
         </a>
       </Box>

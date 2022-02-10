@@ -20,7 +20,7 @@ export default function Overview() {
         <p>
         It's boring to learn pronunciation, vocabs with a robot, isn't it? Now with Nexter, it will be a lot more fun and interactive, cuz you will learn and have fun with real people.
         </p>
-        <a>
+        <a href="http://onelink.to/s25dt2" style={{ textDecoration:"none"}}>
           Get Started
         </a>
       </Box>

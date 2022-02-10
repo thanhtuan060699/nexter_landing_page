@@ -6,6 +6,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faApple, faGooglePlay} from '@fortawesome/free-brands-svg-icons'
 
 export default function Banner() {
+  const goToApple=()=>{
+    window.location.href = "https://apps.apple.com/vn/app/nexter-speak-and-chat-english/id1591368404";
+  };
+  const goToAndroid=()=>{
+    window.location.href = "https://play.google.com/store/apps/details?id=english.nexter.app";
+  };
+
   return (
     <section id="home" sx={styles.sectionBanner}>
       <Container sx={styles.banner.container} className="banner-section">
@@ -13,11 +20,11 @@ export default function Banner() {
           <h1>The Social Network For English Learners.</h1>
           <p>Find friends to speak and chat in English anytime, anywhere</p>
           <div>
-          <Button style={{marginRight : "10px"}}>
-            <FontAwesomeIcon icon={faApple}/> App Store
+          <Button style={{marginRight : "10px"}} onClick={goToApple}>
+          App Store
           </Button>
-          <Button>
-            <FontAwesomeIcon icon={faGooglePlay}/> Google Play
+          <Button onClick={goToAndroid}>
+             <FontAwesomeIcon icon={faGooglePlay}/> Google Play
           </Button>
           </div>
           

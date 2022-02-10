@@ -5,7 +5,7 @@ export default function SEO({
   description = 'Go Nexter english application',
   author = 'Go Nexter',
   meta,
-  title = 'GoNexter',
+  title = 'Nexter',
 }) {
   const metaData = [
     {

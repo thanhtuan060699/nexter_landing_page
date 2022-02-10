@@ -8,6 +8,10 @@ import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
 
 export default function Header({ className }) {
+  const goToDownload=()=>{
+    window.location.href = "http://onelink.to/s25dt2";
+  }
+
   return (
     <header sx={styles.header} className={className}>
       <Container sx={styles.container}>
@@ -31,7 +35,7 @@ export default function Header({ className }) {
           }
         </Flex>
         <MobileDrawer/>
-        <Button className="download_btn" variant="secondary" aria-label="Get It Now">
+        <Button className="download_btn" variant="secondary" aria-label="Get It Now" onClick={goToDownload}>
           Get It Now
         </Button>
       </Container>
