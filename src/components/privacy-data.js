@@ -27,4 +27,8 @@ export default [
     path: 'Consent',
     label: 'Consent',
   },
+  {
+    path: "Facebook's data deletion",
+    label: "Facebook's data deletion",
+  },
 ];

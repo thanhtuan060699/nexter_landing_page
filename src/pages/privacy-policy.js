@@ -88,6 +88,12 @@ export default function PrivacyPolicy() {
         <p>
         By using our app, you hereby consent to our Privacy Policy and agree to its Terms and Conditions.
         </p>
+        <h2 id="Facebook's data deletion">
+        Facebook's data deletion
+        </h2>
+        <p>
+        To delete your Facebook's data on our server. Simple contact us through our <a style={{color: "red"}} href="https://www.facebook.com/nexterenglish">fanpage</a> and give us your email. We will delete your data and account within 24h
+        </p>
 
      </Container>
     </section>

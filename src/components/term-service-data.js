@@ -47,4 +47,8 @@ export default [
     path: 'disclaimer',
     label: 'Disclaimer',
   },
+  {
+    path: "Facebook's data deletion",
+    label: "Facebook's data deletion",
+  },
 ];

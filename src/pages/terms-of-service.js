@@ -215,7 +215,12 @@ export default function TermsOfService() {
         </ul>
         <p>The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.</p>
         <p>As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.</p>
-
+        <h2 id="Facebook's data deletion">
+        Facebook's data deletion
+        </h2>
+        <p>
+        To delete your Facebook's data on our server. Simple contact us through our <a href="https://www.facebook.com/nexterenglish" style={{color: "red"}}>fanpage</a> and give us your email. We will delete your data and account within 24h
+        </p>
      </Container>
     </section>
    );
